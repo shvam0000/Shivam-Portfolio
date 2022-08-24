@@ -14,7 +14,8 @@ const greeting = {
   logo_name: "shivam.s()",
   nickname: "shivam",
   full_name: "Shivam Shekhar",
-  subTitle: "Full Stack Developer, Open Source Enthusiast 🔥. Always learning.",
+  subTitle:
+    "Full Stack Developer, UI/UX Designer, Open Source Enthusiast 🔥. Always learning and developing amazing applications.",
   resumeLink:
     "https://docs.google.com/document/d/1A_jWRG74Rst427tg1izLa6vRXclS9_9F856jWJPJlDY/edit?usp=sharing",
   mail: "mailto:hkanani191@gmail.com",
@@ -27,7 +28,6 @@ const socialMediaLinks = {
   gmail: "shvam0000@gmail.com",
   facebook: "https://www.facebook.com/shivam.shekhar.1466",
   twitter: "https://twitter.com/shivam1910200",
-  instagram: "https://www.instagram.com/shivamshekhar_/",
 };
 
 const skills = {
@@ -36,11 +36,10 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
-        "⚡ Building responsive website front end using ReactJS",
-        "⚡ Developing mobile applications using Flutter and Android",
+        "⚡ Develop highly interactive Front end / User Interfaces for your web applications",
+        "⚡ Building responsive website front end using ReactJS, NextJS and Remix-run",
         "⚡ Creating application backend in Node, Express & Flask",
-        "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean",
+        "⚡ Integration of third party services such as Firebase/ AWS / Supabase",
       ],
       softwareSkills: [
         {
@@ -65,16 +64,17 @@ const skills = {
             color: "#F7DF1E",
           },
         },
-        {
-          skillName: "PHP",
-          fontAwesomeClassname: "simple-icons:php",
-          style: {
-            color: "#7377AD",
-          },
-        },
+
         {
           skillName: "ReactJS",
           fontAwesomeClassname: "simple-icons:react",
+          style: {
+            color: "#61DAFB",
+          },
+        },
+        {
+          skillName: "NextJS",
+          fontAwesomeClassname: "cib:next-js",
           style: {
             color: "#61DAFB",
           },
@@ -100,48 +100,14 @@ const skills = {
             color: "#439743",
           },
         },
-        // {
-        //   skillName: "GraphQL",
-        //   fontAwesomeClassname: "simple-icons:graphql",
-        //   style: {
-        //     color: "#DE33A6",
-        //   },
-        // },
         {
-          skillName: "Android",
-          fontAwesomeClassname: "simple-icons:android",
+          skillName: "GraphQL",
+          fontAwesomeClassname: "simple-icons:graphql",
           style: {
-            color: "#3DDC84",
+            color: "#DE33A6",
           },
         },
-        {
-          skillName: "Java",
-          fontAwesomeClassname: "simple-icons:java",
-          style: {
-            color: "#f89820",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
-        },
-        {
-          skillName: "Dart",
-          fontAwesomeClassname: "simple-icons:dart",
-          style: {
-            color: "#29B0EE",
-          },
-        },
-        // {
-        //   skillName: "Visual Basic",
-        //   fontAwesomeClassname: "simple-icons:dot-net",
-        //   style: {
-        //     color: "#029FCE",
-        //   },
-        // },
+
         {
           skillName: "MySQL",
           fontAwesomeClassname: "simple-icons:mysql",
@@ -163,13 +129,7 @@ const skills = {
             color: "#207297",
           },
         },
-        {
-          skillName: "Apache",
-          fontAwesomeClassname: "simple-icons:apache",
-          style: {
-            color: "#CA1A22",
-          },
-        },
+
         {
           skillName: "Git",
           fontAwesomeClassname: "simple-icons:git",
@@ -198,31 +158,6 @@ const skills = {
             color: "#3776AB",
           },
         },
-      ],
-    },
-    {
-      title: "Cloud Infra-Architecture",
-      fileName: "CloudInfraImg",
-      skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Experience hosting and managing websites",
-        "⚡ Experience with Continuous Integration",
-      ],
-      softwareSkills: [
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Netlify",
-          fontAwesomeClassname: "simple-icons:netlify",
-          style: {
-            color: "#38AFBB",
-          },
-        },
         {
           skillName: "Heroku",
           fontAwesomeClassname: "simple-icons:heroku",
@@ -237,32 +172,29 @@ const skills = {
             color: "#FFCA28",
           },
         },
+      ],
+    },
+    {
+      title: "UI / UX Designing",
+      fileName: "CloudInfraImg",
+      skills: [
+        "⚡ Experience working on multiple designing applications such as Figma, AdobeXD",
+        "⚡ Experience designing industrial applications and websites",
+        "⚡ Experience in desiging low-fidelity and high-fidelity prototypes",
+      ],
+      softwareSkills: [
         {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
+          skillName: "Figma",
+          fontAwesomeClassname: "simple-icons:figma",
           style: {
-            color: "#336791",
+            color: "#FF9900",
           },
         },
         {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
+          skillName: "AdobeXD",
+          fontAwesomeClassname: "simple-icons:adobexd",
           style: {
-            color: "#47A248",
-          },
-        },
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
-        },
-        {
-          skillName: "GitHub Actions",
-          fontAwesomeClassname: "simple-icons:githubactions",
-          style: {
-            color: "#5b77ef",
+            color: "#38AFBB",
           },
         },
       ],
