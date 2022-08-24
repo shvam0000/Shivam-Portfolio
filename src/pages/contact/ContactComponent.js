@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
@@ -16,10 +16,22 @@ function Contact(props) {
 
   const styles = style({
     backgroundColor: `${theme.accentBright}`,
+    marginRight: "10px",
+    marginLeft: "10px",
     ":hover": {
       boxShadow: `0 5px 15px ${theme.accentBright}`,
     },
   });
+
+  useEffect(() => {
+    const head = document.querySelector("head");
+    const script = document.createElement("script");
+    script.setAttribute(
+      "src",
+      "https://assets.calendly.com/assets/external/widget.js"
+    );
+    head.appendChild(script);
+  }, []);
 
   return (
     <div className="contact-main">
@@ -28,11 +40,13 @@ function Contact(props) {
         <Fade bottom duration={1000} distance="40px">
           <div className="contact-heading-div">
             <div className="contact-heading-img-div">
-              <img
-                className="profile-pic"
-                src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
-                alt=""
-              />
+              <div id="schedule_form">
+                <div
+                  className="calendly-inline-widget"
+                  data-url="https://calendly.com/shivamshekhar19/30min"
+                  style={{ minWidth: "320px", height: "480px" }}
+                />
+              </div>
             </div>
             <div className="contact-heading-text-div">
               <h1
@@ -48,11 +62,33 @@ function Contact(props) {
                 {ContactData["description"]}
               </p>
               <SocialMedia />
-              <br />
-              <br />
-              <a {...styles} className="general-btn" href={greeting.resumeLink}>
-                See my Resume
-              </a>
+
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyItems: "center",
+                  alignItems: "center",
+                  paddingBottom: "10px",
+                }}
+              >
+                <a
+                  {...styles}
+                  className="general-btn"
+                  href={greeting.resumeLink}
+                  target="blank"
+                >
+                  My Resume
+                </a>
+                <a
+                  {...styles}
+                  className="general-btn"
+                  href="https://forms.gle/XNurMwy9Kw5zFW7u7"
+                  target="blank"
+                >
+                  Send me a Message
+                </a>
+              </div>
             </div>
           </div>
         </Fade>
@@ -69,8 +105,13 @@ function Contact(props) {
                 {blogSection["subtitle"]}
               </p>
               <div className="blogsite-btn-div">
-                <a {...styles} className="general-btn" href={blogSection.link}>
-                  My Twitter Profile
+                <a
+                  {...styles}
+                  className="general-btn"
+                  href={blogSection.link}
+                  target="blank"
+                >
+                  My Blogs
                 </a>
               </div>
             </div>

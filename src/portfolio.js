@@ -238,80 +238,50 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "M0001: MongoDB Basics",
-      subtitle: "MongoDB University",
-      logo_path: "mongo.png",
+      title: "Foundations of User Experience (UX) Design",
+      subtitle: "Google - Coursera",
+      logo_path: "coursera-logo.png",
       certificate_link:
-        "https://drive.google.com/file/d/12se6bMep48WXA1PlizTBAgCnW0GXM6wq/view?usp=sharing",
-      alt_name: "MongoDB University",
-      // color_code: "#2AAFED",
-      color_code: "#47A048",
+        "https://www.coursera.org/account/accomplishments/certificate/KUXBJCGSX7D2",
+      alt_name: "Coursera",
+      color_code: "#0056D3",
     },
     {
-      title: "Hackathon",
-      subtitle: "Hack The Mountains",
-      logo_path: "hackathon1.svg",
+      title: "Python for Data Science and AI",
+      subtitle: "IBM - Coursera",
+      logo_path: "coursera-logo.png",
       certificate_link:
-        "https://drive.google.com/file/d/1Y-HT1flWDfeyfnfqVr3ubNgGIcnuUEYt/view?usp=sharing",
-      alt_name: "hackathon",
-      color_code: "#E2405F",
+        "https://www.credly.com/badges/633b2d0b-d70f-4e0d-a167-ee8a7a929fff/linked_in_profile",
+      alt_name: "Coursera",
+      color_code: "#0056D3",
     },
     {
-      title: "A300: Atlas Security",
-      subtitle: "MongoDB University",
-      logo_path: "mongo.png",
+      title: "Data Analysis with Python",
+      subtitle: "IBM - Coursera",
+      logo_path: "coursera-logo.png",
       certificate_link:
-        "https://drive.google.com/file/d/12u_tkvhgB-K2TIm-RDdJOwYbQ9ccqiqA/view?usp=sharing",
-      alt_name: "MongoDB University",
-      // color_code: "#F6B808",
-      color_code: "#47A048",
+        "https://www.credly.com/badges/742dd993-b6af-4a54-90a5-9da34a8083db/linked_in_profile",
+      alt_name: "python - data science",
+      color_code: "#0056D3",
     },
     {
-      title: "Cyber Security & Cyber Forensics",
-      subtitle: "Workshop at IIT Bombay",
-      logo_path: "iit.png",
+      title: "Introduction to Cybersecurity Tools & Cyber Attacks",
+      subtitle: "IBM - Coursera",
+      logo_path: "coursera-logo.png",
       certificate_link:
-        "https://drive.google.com/file/d/12uAdjQC5LfrB1ODdxqIY181ugyyQhl-I/view?usp=sharing",
-      alt_name: "Workshop",
-      color_code: "#2AAFED",
+        "https://www.credly.com/badges/fcf3ca86-0656-4d50-8479-bdce3e1cdfe1/linked_in_profile",
+      alt_name: "cyber security",
+      color_code: "#0056D3",
     },
     {
-      title: "MLH Local Hack Day: Build",
-      subtitle: "Major League Hacking",
-      logo_path: "mlh-logo.svg",
+      title: "Fundamentals of Red Hat Enterprise Linux",
+      subtitle: "Red Hat Foundation - Coursera",
+      logo_path: "coursera-logo.png",
       certificate_link:
-        "https://drive.google.com/file/d/1ws7g2Oepu76vDFir6SvR_emFAMSkB2ZQ/view?usp=sharing",
-      alt_name: "Google",
-      color_code: "#fe0037",
+        "https://coursera.org/share/a8d4ea18c748b467c3884771896acbf1",
+      alt_name: "red hat",
+      color_code: "#0056D3",
     },
-    {
-      title: "Hack20",
-      subtitle: "Flutter International Hackathon",
-      logo_path: "flutter.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1JTd8pVlHbP0RVQYtfa4OZgJYGfdiCwM6/view?usp=sharing",
-      alt_name: "Flutter International Hackathon",
-      color_code: "#2AAFED",
-    },
-    {
-      title: "Postman Student Expert",
-      subtitle: "Postman",
-      logo_path: "postman.png",
-      certificate_link:
-        "https://badgr.com/public/assertions/h2qevHs4SlyoHErJQ0mn2g",
-      alt_name: "Postman",
-      // color_code: "#f36c3d",
-      color_code: "#fffbf3",
-    },
-    // color_code: "#8C151599",
-    // color_code: "#7A7A7A",
-    // color_code: "#0C9D5899",
-    // color_code: "#C5E2EE",
-    // color_code: "#ffc475",
-    // color_code: "#g",
-    // color_code: "#ffbfae",
-    // color_code: "#fffbf3",
-    // color_code: "#b190b0",
   ],
 };
 
@@ -333,12 +303,7 @@ const experience = {
           logo_path: "mitacs-logo.png",
           duration: "June 2022 - Sept 2022",
           location: "University of New Brunswick, New Brunswick, Canada",
-          description: `Train, manage and provide guidance to junior software development staff.
-          Work closely with the Project Manager and Team Leads on change request functions.
-          Develops new and maintains existing applications.
-          Increased productivity and problem-solving technics by 20%.
-          We primarily used PERN and MERN Stack. 80% of my work was doing backend development and the remaining 20% was DevOps-related tasks.
-          `,
+          description: `Worked under Prof Daniel J. Rea in the HRI Lab. Worked on Mixed Reality project with Jackal Robot to create an environment with Physical Vehicles along with virtual objects.`,
           color: "#0071C5",
         },
         {
@@ -348,9 +313,7 @@ const experience = {
           logo_path: "quinence-logo.jpg",
           duration: "Feb 2022 - May 2022",
           location: "Remote - Singapore",
-          description: `Work closely with the Client and Team on change request functions.
-          We Primarily used LAMP Stack. 40% of my work was doing backend development, 30% of my work was designing database schemas, and 30% of my work was on maintain hosting and user traffics on the website.
-          `,
+          description: `Primarily worked on Migration of an NFT website from NextJS to Remix-run and added more features on it such as integration of Shopify and design changes. Also worked on the content curation of a TailwindCSS online course.`,
           color: "#ee3c26",
         },
         {
@@ -360,8 +323,8 @@ const experience = {
           logo_path: "bitcs-logo.png",
           duration: "Nov 2021 - Feb 2022",
           location: "Remote - Noida",
-          description: `Work closely with the Client and Team on change request functions.
-          We Primarily used LAMP Stack. 40% of my work was doing backend development, 30% of my work was designing database schemas, and 30% of my work was on maintain hosting and user traffics on the website.
+          description: `Work closely with the Client change request functions.
+          We Primarily used MERN Stack. I worked on the frontend part of a AI platform for women health.
           `,
           color: "#ee3c26",
         },
@@ -372,8 +335,7 @@ const experience = {
           logo_path: "techdome-logo.png",
           duration: "June 2021 - Sept 2021",
           location: "Remote - Indore",
-          description: `Work closely with the Client and Team on change request functions.
-          We Primarily used LAMP Stack. 40% of my work was doing backend development, 30% of my work was designing database schemas, and 30% of my work was on maintain hosting and user traffics on the website.
+          description: `I was responsible for designing low-fidelity and high-fidelity design for a USA based customer and helped them going completely paperless for their daily operations.
           `,
           color: "#ee3c26",
         },
@@ -390,7 +352,7 @@ const experience = {
           duration: "May 2021 - May 2022",
           location: "SRMIST - Chennai",
           description:
-            "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck.",
+            "A group of 11 open-source enthusiast students started this community to spread the word of open source all across the campus. We conducted events and workshops to encourage other students to come up and contribute in open source.",
           color: "#4285F4",
         },
         {
@@ -402,7 +364,7 @@ const experience = {
           duration: "April 2021 - Present",
           location: "SRMIST - Chennai",
           description:
-            "Spread Awareness of new Technologies and new Opportunities to Students and Grow Skillenza Community.",
+            "I work on research in Human Computer Interaction in Pausch Lab of Next Tech Lab.",
           color: "#196acf",
         },
         {
@@ -413,7 +375,7 @@ const experience = {
           duration: "Aug 2021 - Dec 2021",
           location: "Work from Home",
           description:
-            "Contribute to Open Source Community and Open Source Project.",
+            "I was mentoring a group of students interested to start learning UI/UX designing and making a career in it.",
           color: "#040f26",
         },
         {
@@ -424,7 +386,7 @@ const experience = {
           duration: "Nov 2020 - Aug 2021",
           location: "SRMIST - Chennai",
           description:
-            "Day-to-day responsibilities of helping local businesses to spread their business to the world. Helping users by writing reviews about different locations and spaces such as shops, malls, etc.",
+            "Day-to-day responsibilities of buildin projects for the club and showcase them all around the campus.",
           color: "#D83B01",
         },
         {
@@ -436,7 +398,7 @@ const experience = {
           duration: "Nov 2020 - Apr 2021",
           location: "Work From Home",
           description:
-            "Google Developer Group Surat Student Volunteer and Member.",
+            "Worked on the backend part of a mobile app helping college students sell and buys goods and services around the campus.",
           color: "#D83B01",
         },
         {
@@ -447,7 +409,7 @@ const experience = {
           duration: "Feb 2020 - Present",
           location: "SRMIST",
           description:
-            "Take time out over weekends to join a gang of nation builders, nature enthusiasts to conserve what is left.",
+            "Worked in Public Relations Committee to conduct MILAN, the cultural fest of the college. Worked closely with other committees to ensure the smooth flow of the event.",
           color: "#5a900f",
         },
         {
@@ -458,7 +420,7 @@ const experience = {
           duration: "Sep 2019 - Sep 2020",
           location: "SRMIST",
           description:
-            "Take time out over weekends to join a gang of nation builders, nature enthusiasts to conserve what is left.",
+            "Worked in Quality Assuarance Committee to Aaruush, the technical fest of the college. Major responsibilities included ensuring the comfortable stay of other participating and visiting teams and groups.",
           color: "#5a900f",
         },
       ],

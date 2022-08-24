@@ -6,7 +6,7 @@ export default function CloudInfraImg(props) {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
-      dataName="Layer 1"
+      dataname="Layer 1"
       width="1164.07"
       height="555.93"
       viewBox="0 0 1164.07 555.93"
@@ -20,9 +20,9 @@ export default function CloudInfraImg(props) {
           y2="679.56"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0" stop-color="gray" stop-opacity="0.25" />
-          <stop offset="0.54" stop-color="gray" stop-opacity="0.12" />
-          <stop offset="1" stop-color="gray" stop-opacity="0.1" />
+          <stop offset="0" stopColor="gray" stopOpacity="0.25" />
+          <stop offset="0.54" stopColor="gray" stopOpacity="0.12" />
+          <stop offset="1" stopColor="gray" stopOpacity="0.1" />
         </linearGradient>
         <linearGradient
           id="72a3db62-0825-44ad-a640-19754e14ba99-151"
