@@ -15,7 +15,7 @@ const greeting = {
   nickname: "shivam",
   full_name: "Shivam Shekhar",
   subTitle:
-    "Full Stack Developer, UI/UX Designer, Open Source Enthusiast 🔥. Always learning and developing amazing applications.",
+    "Full Stack Developer, UI/UX Designer, Open Source Enthusiast 🔥. Always Learning.",
   resumeLink:
     "https://docs.google.com/document/d/1A_jWRG74Rst427tg1izLa6vRXclS9_9F856jWJPJlDY/edit?usp=sharing",
   mail: "mailto:hkanani191@gmail.com",
