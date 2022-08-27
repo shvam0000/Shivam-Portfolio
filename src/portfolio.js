@@ -17,7 +17,7 @@ const greeting = {
   subTitle:
     "Full Stack Developer, UI/UX Designer, Open Source Enthusiast 🔥. Always Learning.",
   resumeLink:
-    "https://docs.google.com/document/d/1A_jWRG74Rst427tg1izLa6vRXclS9_9F856jWJPJlDY/edit?usp=sharing",
+    "https://drive.google.com/file/d/1vpqCjWErRN4dC-Q1sc1hPPUHi2N-SMCf/view?usp=sharing",
   mail: "mailto:hkanani191@gmail.com",
 };
 
