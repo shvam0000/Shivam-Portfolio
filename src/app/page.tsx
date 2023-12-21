@@ -1,4 +1,4 @@
-import { Hero } from './components';
+import { About, Hero } from './components';
 import { Navbar } from './components/shared';
 
 const Home = () => {
@@ -6,6 +6,7 @@ const Home = () => {
     <>
       <Navbar />
       <Hero />
+      <About />
     </>
   );
 };
