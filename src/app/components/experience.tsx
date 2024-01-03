@@ -78,7 +78,7 @@ const Experience = () => {
               Integrated Shopify Store API for the Merchandise section of NFT
               platform and enhanced UI design of overall website.
             </li>
-            <li>
+            <li className="list-disc ml-2  my-2">
               Curated content for Modernfullstack to develop course for
               TailwindCSS for beginner developers to learn.
             </li>

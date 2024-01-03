@@ -23,7 +23,9 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         />
       </figure>
       <div className="flex flex-col justify-center h-full text-center">
-        <h1 className="uppercase font-bold text-xl mb-4">{title}</h1>
+        <h1 className="uppercase font-bold text-xl mb-4 text-blue-500">
+          {title}
+        </h1>
         <div className="max-w-lg">{description}</div>
         <div className="flex justify-center items-center py-3">
           {stack?.map((tech: any) => (
