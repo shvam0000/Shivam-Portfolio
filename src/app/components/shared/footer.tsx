@@ -9,12 +9,18 @@ const Footer = () => {
         Copyright © {new Date().getFullYear()}. All rights are reserved
       </div>
       <div className="flex justify-center items-center">
-        <div className="text-3xl px-2">
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/shivam-shekhar-062950182/"
+          className="text-3xl px-2">
           <CiLinkedin />
-        </div>
-        <div className="text-2xl">
+        </a>
+        <a
+          target="_blank"
+          href="https://github.com/shvam0000/"
+          className="text-2xl">
           <FiGithub />
-        </div>
+        </a>
       </div>
     </div>
   );

@@ -46,12 +46,18 @@ const Hero = () => {
             based in New York.📍
           </h2>
           <div className="flex items-center text-gray-800">
-            <figure className="text-4xl font-bold pr-2">
+            <a
+              href="https://www.linkedin.com/in/shivam-shekhar-062950182/"
+              target="_blank"
+              className="text-4xl font-bold pr-2">
               <CiLinkedin />
-            </figure>
-            <figure className="text-3xl font-medium pl-2">
+            </a>
+            <a
+              href="https://github.com/shvam0000/"
+              target="_blank"
+              className="text-3xl font-medium pl-2">
               <FiGithub />
-            </figure>
+            </a>
           </div>
         </div>
         <figure className="pr-32">

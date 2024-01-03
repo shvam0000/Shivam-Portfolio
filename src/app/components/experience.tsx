@@ -3,7 +3,9 @@ import React from 'react';
 const Experience = () => {
   return (
     <div id="experience" className="ml-52 w-3/4">
-      <h1 className="uppercase text-xl font-bold py-10">Experience</h1>
+      <h1 className="uppercase text-xl font-bold py-10 text-blue-500">
+        Experience
+      </h1>
       <ol className="relative border-s border-gray-200 ">
         <li className="mb-10 ms-4">
           <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white "></div>
