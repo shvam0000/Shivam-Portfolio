@@ -48,3 +48,45 @@ export const techStack = [
     name: 'cpp',
   },
 ];
+
+export const queryFuel = [
+  {
+    name: 'next',
+  },
+  {
+    name: 'nodejs',
+  },
+  {
+    name: 'express',
+  },
+  {
+    name: 'mongodb',
+  },
+];
+
+export const speakSphere = [
+  {
+    name: 'next',
+  },
+  {
+    name: 'nodejs',
+  },
+  {
+    name: 'mongodb',
+  },
+  {
+    name: 'typescript',
+  },
+  {
+    name: 'tailwind',
+  },
+];
+
+export const roommateTinder = [
+  {
+    name: 'next',
+  },
+  {
+    name: 'aws',
+  },
+];
