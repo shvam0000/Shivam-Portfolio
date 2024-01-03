@@ -15,7 +15,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
     <div className="p-5 bg-white my-10 rounded-2xl flex justify-center items-center">
       <figure className="mr-10">
         <Image
-          className="rounded-3xl"
+          className="rounded-3xl shadow-2xl"
           src={img}
           height={600}
           width={600}

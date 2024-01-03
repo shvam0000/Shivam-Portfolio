@@ -1,4 +1,4 @@
-import { About, Contact, Hero, Projects } from './components';
+import { About, Contact, Experience, Hero, Projects } from './components';
 import { Footer, Navbar } from './components/shared';
 
 const Home = () => {
@@ -7,6 +7,7 @@ const Home = () => {
       <Navbar />
       <Hero />
       <About />
+      <Experience />
       <Projects />
       <Contact />
       <Footer />
