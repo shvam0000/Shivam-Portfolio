@@ -1,4 +1,5 @@
 'use client';
+import Link from 'next/link';
 import React, { useState } from 'react';
 
 const Navbar = () => {
@@ -54,26 +55,64 @@ const Navbar = () => {
             </figure>
           </button>
           <div className="flex flex-col items-center py-5 space-y-5">
-            <h1 className="font-bold hover:text-blue" onClick={closeMobileMenu}>
+            <Link
+              href="/"
+              className="font-bold hover:text-blue cursor-pointer"
+              onClick={closeMobileMenu}>
               Home
-            </h1>
-            <h1 className="font-bold hover:text-blue" onClick={closeMobileMenu}>
+            </Link>
+            <Link
+              href="#about"
+              className="font-bold hover:text-blue cursor-pointer"
+              onClick={closeMobileMenu}>
               About
-            </h1>
-            <h1 className="font-bold hover:text-blue" onClick={closeMobileMenu}>
+            </Link>
+            <Link
+              href="#experience"
+              className="font-bold hover:text-blue cursor-pointer"
+              onClick={closeMobileMenu}>
+              Experience
+            </Link>
+            <Link
+              href="#projects"
+              className="font-bold hover:text-blue cursor-pointer"
+              onClick={closeMobileMenu}>
               Projects
-            </h1>
-            <h1 className="font-bold hover:text-blue" onClick={closeMobileMenu}>
+            </Link>
+            <Link
+              href="#contact"
+              className="font-bold hover:text-blue cursor-pointer"
+              onClick={closeMobileMenu}>
               Contact
-            </h1>
+            </Link>
           </div>
         </div>
       </div>
       <div className="hidden lg:flex justify-center space-x-5">
-        <h1 className="font-bold hover:text-blue">Home</h1>
-        <h1 className="font-bold hover:text-blue">About</h1>
-        <h1 className="font-bold hover:text-blue">Projects</h1>
-        <h1 className="font-bold hover:text-blue">Contact</h1>
+        <Link href="/" className="font-bold hover:text-blue cursor-pointer">
+          Home
+        </Link>
+        <Link
+          href="#about"
+          className="font-bold hover:text-blue cursor-pointer">
+          About
+        </Link>
+        <Link
+          href="#experience"
+          className="font-bold hover:text-blue cursor-pointer">
+          Experience
+        </Link>
+        <Link
+          href="#projects"
+          className="font-bold hover:text-blue cursor-pointer">
+          Projects
+        </Link>
+
+        <Link
+          href="#contact"
+          className="font-bold hover:text-blue cursor-pointer">
+          Contact
+        </Link>
       </div>
     </div>
   );

@@ -11,7 +11,7 @@ import queryfuel from '../utils/images/queryfuel.png';
 
 const Projects = () => {
   return (
-    <div className="bg-gray-50  py-10">
+    <div id="projects" className="bg-gray-50  py-10">
       <div className="pl-52">
         <h1 className="uppercase font-bold pb-5 text-xl">Portfolio</h1>
         <h2 className="font-semibold text-2xl">

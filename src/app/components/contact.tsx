@@ -4,7 +4,7 @@ import { FaMapLocationDot } from 'react-icons/fa6';
 
 const Contact = () => {
   return (
-    <div className="py-10 flex flex-col justify-start pl-52">
+    <div id="contact" className="py-10 flex flex-col justify-start pl-52">
       <h1 className="uppercase font-bold pb-5 text-xl">Contact</h1>
       <h1 className="font-semibold text-lg">Don&apos;t be shy! Hit me up!</h1>
 

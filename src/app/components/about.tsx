@@ -4,7 +4,7 @@ import setup from '../utils/images/coding.avif';
 
 const About = () => {
   return (
-    <div className="py-20 flex justify-center items-center">
+    <div id="about" className="py-20 flex justify-center items-center">
       <figure className="mr-10">
         <Image
           className="rounded-3xl"

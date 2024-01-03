@@ -2,7 +2,7 @@ import React from 'react';
 
 const Experience = () => {
   return (
-    <div className="ml-52 w-3/4">
+    <div id="experience" className="ml-52 w-3/4">
       <h1 className="uppercase text-xl font-bold py-10">Experience</h1>
       <ol className="relative border-s border-gray-200 ">
         <li className="mb-10 ms-4">
