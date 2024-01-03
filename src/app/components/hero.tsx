@@ -2,7 +2,7 @@
 import React, { useEffect } from 'react';
 import { CiLinkedin } from 'react-icons/ci';
 import { FiGithub } from 'react-icons/fi';
-import man from '../utils/images/man.jpeg';
+import man from '../utils/images/man.jpg';
 import Image from 'next/image';
 import { techStack } from '../utils/constants/hero.const';
 import anime from 'animejs/lib/anime.es.js';
@@ -62,7 +62,7 @@ const Hero = () => {
         </div>
         <figure className="pr-32">
           <Image
-            className="rounded-full hero-image"
+            className="rounded-2xl hero-image"
             src={man}
             height={300}
             width={300}
