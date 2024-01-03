@@ -6,7 +6,7 @@ import {
   speakSphere,
 } from '../utils/constants/hero.const';
 import roommatetinder from '../utils/images/roommatetinder.png';
-import speaksphere from '../utils/images/speakSphere.png';
+import speaksphere from '../utils/images/speaksphere.png';
 import queryfuel from '../utils/images/queryfuel.png';
 
 const Projects = () => {
