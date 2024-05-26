@@ -1,49 +1,38 @@
 'use client';
-import React, { useEffect } from 'react';
+import React from 'react';
 import { CiLinkedin } from 'react-icons/ci';
 import { FiGithub } from 'react-icons/fi';
 import man from '../utils/images/man.jpg';
 import Image from 'next/image';
 import { techStack } from '../utils/constants/hero.const';
-import anime from 'animejs/lib/anime.es.js';
+import { Tilt } from 'react-tilt';
 import GitHubCalendar from 'react-github-calendar';
+import { TypeAnimation } from 'react-type-animation';
 
 const Hero = () => {
-  useEffect(() => {
-    anime
-      .timeline({ loop: false })
-      .add({
-        targets: '.hero-title',
-        translateY: [-50, 0],
-        opacity: [0, 1],
-        duration: 1000,
-        easing: 'easeOutExpo',
-      })
-      .add({
-        targets: '.hero-subtitle',
-        translateY: [-30, 0],
-        opacity: [0, 1],
-        duration: 800,
-        easing: 'easeOutExpo',
-      })
-      .add({
-        targets: '.hero-image',
-        translateX: 0,
-        scale: 1,
-        rotate: '1turn',
-      });
-  }, []);
-
   return (
     <div className="bg-gray-50 py-10 w-screen flex flex-col justify-center">
       <div className="flex justify-center items-center py-10">
         <div className="w-1/2 flex flex-col justify-center items-start pl-32">
-          <h1 className="text-6xl font-bold pt-5 pb-2 hero-title">
-            Full-Stack Web Developer 👋🏼
+          <h1 className="text-xl font-bold pt-5 pb-2 hero-title">
+            <TypeAnimation
+              sequence={[
+                '👨🏻‍💻 Full Stack Developer',
+                2000,
+                '👨🏻‍💻 Cloud Developer',
+                2000,
+                '👨🏻‍💻 DevOps Engineer',
+                2000,
+              ]}
+              wrapper="span"
+              speed={50}
+              style={{ fontSize: '2em', display: 'inline-block' }}
+              repeat={Infinity}
+            />
           </h1>
           <h2 className="text-lg pb-5 pt-3 font-medium text-gray-600 pr-20 hero-subtitle">
-            Hi, I&apos;m Shivam Shekhar. A passionate Full-Stack Web Developer
-            based in New York.📍
+            Hi, I&apos;m Shivam Shekhar. A passionate Software Developer based
+            in New York.📍
           </h2>
           <div className="flex items-center text-gray-800">
             <a
@@ -61,13 +50,15 @@ const Hero = () => {
           </div>
         </div>
         <figure className="pr-32">
-          <Image
-            className="rounded-2xl hero-image"
-            src={man}
-            height={300}
-            width={300}
-            alt={'My Photo'}
-          />
+          <Tilt className="Tilt" options={{ max: 25, scale: 1.05 }}>
+            <Image
+              className="rounded-2xl"
+              src={man}
+              height={300}
+              width={300}
+              alt={'My Photo'}
+            />
+          </Tilt>
         </figure>
       </div>
       <div className="flex flex-col items-center justify-center py-10">
