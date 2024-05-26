@@ -1,6 +1,7 @@
 import React from 'react';
 import { MdEmail } from 'react-icons/md';
 import { FaMapLocationDot } from 'react-icons/fa6';
+import { contactData } from '../utils/constants/data';
 
 const Contact = () => {
   return (
@@ -14,16 +15,14 @@ const Contact = () => {
         <span className="text-xl text-blue-600">
           <FaMapLocationDot />
         </span>
-        <p className="pl-5 font-medium">New York</p>
+        <p className="pl-5 font-medium">{contactData.place}</p>
       </div>
       <div className="flex flex-row items-center justify-start">
         <span className="text-xl text-blue-600">
           <MdEmail />
         </span>
-        <a
-          href="mailto:shivam.shekhar@columbia.edu"
-          className="pl-5 font-medium">
-          shivam.shekhar@columbia.edu
+        <a href={`mailto:${contactData.email}`} className="pl-5 font-medium">
+          {contactData.email}
         </a>
       </div>
     </div>

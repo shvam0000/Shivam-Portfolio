@@ -8,6 +8,7 @@ import { techStack } from '../utils/constants/hero.const';
 import { Tilt } from 'react-tilt';
 import GitHubCalendar from 'react-github-calendar';
 import { TypeAnimation } from 'react-type-animation';
+import { introData } from '../utils/constants/data';
 
 const Hero = () => {
   return (
@@ -16,14 +17,7 @@ const Hero = () => {
         <div className="w-1/2 flex flex-col justify-center items-start pl-32">
           <h1 className="text-xl font-bold pt-5 pb-2 hero-title">
             <TypeAnimation
-              sequence={[
-                '👨🏻‍💻 Full Stack Developer',
-                2000,
-                '👨🏻‍💻 Cloud Developer',
-                2000,
-                '👨🏻‍💻 DevOps Engineer',
-                2000,
-              ]}
+              sequence={introData.sequence}
               wrapper="span"
               speed={50}
               style={{ fontSize: '2em', display: 'inline-block' }}
@@ -31,18 +25,17 @@ const Hero = () => {
             />
           </h1>
           <h2 className="text-lg pb-5 pt-3 font-medium text-gray-600 pr-20 hero-subtitle">
-            Hi, I&apos;m Shivam Shekhar. A passionate Software Developer based
-            in New York.📍
+            {introData.introLine}
           </h2>
           <div className="flex items-center text-gray-800">
             <a
-              href="https://www.linkedin.com/in/shivam-shekhar-062950182/"
+              href={introData.linkedInLink}
               target="_blank"
               className="text-4xl font-bold pr-2">
               <CiLinkedin />
             </a>
             <a
-              href="https://github.com/shvam0000/"
+              href={introData.gitHubLink}
               target="_blank"
               className="text-3xl font-medium pl-2">
               <FiGithub />
@@ -77,7 +70,10 @@ const Hero = () => {
           ))}
         </div>
         <div className="flex flex-col items-center justify-center py-10">
-          <GitHubCalendar colorScheme="light" username="shvam0000" />
+          <GitHubCalendar
+            colorScheme="light"
+            username={introData.gitHubUsername}
+          />
         </div>
       </div>
     </div>
