@@ -5,3 +5,10 @@ export type ProjectCardProps = {
   stack: any;
   img: any;
 };
+
+export type ExperienceCardProps = {
+  timeline: string;
+  companyName: string;
+  role: string;
+  description: JSX.Element;
+};
