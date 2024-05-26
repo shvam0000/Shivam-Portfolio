@@ -112,3 +112,8 @@ export const contactData = {
   place: 'New York, NY',
   email: 'shivam.shekhar@columbia.edu',
 };
+
+export const footerData = {
+  linkedIn: 'https://www.linkedin.com/in/shivam-shekhar-062950182/',
+  github: 'https://www.github.com/shvam0000/',
+};
