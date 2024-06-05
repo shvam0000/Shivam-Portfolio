@@ -1,9 +1,10 @@
 import { About, Contact, Experience, Hero, Projects } from './components';
-import { Footer, Navbar } from './components/shared';
+import { Footer, Navbar, ScrollComponent } from './components/shared';
 
 const Home = () => {
   return (
-    <div>
+    <>
+      <ScrollComponent />
       <Navbar />
       <Hero />
       <About />
@@ -11,7 +12,7 @@ const Home = () => {
       <Projects />
       <Contact />
       <Footer />
-    </div>
+    </>
   );
 };
 
