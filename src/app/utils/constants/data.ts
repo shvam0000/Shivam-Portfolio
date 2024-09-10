@@ -32,11 +32,23 @@ export const aboutData = {
 
 export const experienceData = [
   {
-    timeline: 'May 2024 - Present, New York - NY',
+    timeline: 'Sept 2024 - Present, New York - NY',
+    companyName: 'Dune Security',
+    role: 'Frontend Engineer Intern',
+    description: [
+      'Developed and maintained user-facing features for security-focused web applications using React and Tailwind CSS, improving user experience and accessibility.',
+      'Collaborated with backend engineers to integrate secure APIs and ensure seamless communication between frontend and backend systems.',
+      'Ensured code quality through best practices in unit testing, code reviews, and continuous integration pipelines.',
+    ],
+  },
+  {
+    timeline: 'May 2024 - Aug 2024, New York - NY',
     companyName: 'Subconscious.ai',
     role: 'Software Engineer Intern',
     description: [
-      'Contributing to AI-driven projects, focusing on enhancing system performance and user interaction.',
+      'Centralized Environment Variable Management: Led the initiative to centralize all environment variables across multiple projects and cloud deployments using Doppler, enhancing security, consistency, and ease of management.',
+      'Transitioned LLM APIs to Cloud Infrastructure: Facilitated the migration of LLM API calls to cloud platforms, utilizing Microsoft Azure for OpenAI, LLaMa and Mistral, reducing cost by $20,000 per month.',
+      'Enhanced Research Paper Translation Automation: Developed a robust software pipeline using Python and the Weights & Biases (WANDB) API to automate the translation of experimental research papers, extract key attributes and levels, and systematically store them in Weights & Biases for efficient data management.',
     ],
   },
   {
@@ -44,9 +56,9 @@ export const experienceData = [
     companyName: 'Momentech Solutions Pvt. Ltd.',
     role: 'Software Developer Intern',
     description: [
-      'Engineered a Battery Intelligence platform for electric vehicles, utilizing geolocation parameters to predict battery health. This platform aims to increase battery life by 3 years, optimizing performance.',
-      'Utilized AWS services (Cognito, EC2, S3, SES, DynamoDB, CloudWatch, CloudFormation, etc.) to optimize system architecture and functionality in diverse projects.',
-      'Directed a technical team of 10+ members, acquiring valuable leadership and team management expertise.',
+      'Engineered Battery Intelligence Platform: Designed and developed a platform for electric vehicles utilizing multiple parameters to determine and further predict the life of the battery.',
+      'Optimized System Architecture: Re-engineered the system architecture using AWS Cloud services, resulting in a 40% improvement in load balancing and 30% smoother API flow.',
+      'Collaborated with Product Management: Worked closely with product managers to define technical requirements, prioritize features, and implement a backlog management system, leading to faster project deliveries and improved team efficiency.',
     ],
   },
   {
@@ -63,9 +75,9 @@ export const experienceData = [
     companyName: 'Quinence',
     role: 'Software Developer Intern',
     description: [
-      'Successfully migrated code for the Soulless Citadel NFT platform from Next.js to Remix-run, resulting in a 30% reduction in browser load time and build size.',
-      'Integrated Shopify Store API for the Merchandise section of NFT platform and enhanced UI design of overall website.',
-      'Curated content for Modernfullstack to develop course for TailwindCSS for beginner developers to learn.',
+      'Migrated NFT Platform Code: Transitioned Soulless Citadel NFT platform from Next.js to Remix-run, enhancing backend efficiency, reducing browser load time and build size by 30%, and integrating GraphQL for optimized data fetching.',
+      'Integrated Shopify Store API: Implemented Shopify Store API to build a seamless end-to-end shopping experience, leveraging GraphQL for efficient querying and enhancing the backend infrastructure.',
+      'Curated Educational Content: Developed a comprehensive beginner course for TailwindCSS, focusing on backend integration techniques and aiding new developers in mastering essential software development skills.',
     ],
   },
 ];
