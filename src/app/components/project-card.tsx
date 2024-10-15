@@ -32,7 +32,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         </h1>
         <div className="max-w-lg mb-4">{description}</div>
         <div className="flex justify-center lg:justify-start items-center py-3 flex-wrap">
-          {stack?.map((tech) => (
+          {stack?.map((tech: { name: React.Key | null | undefined }) => (
             <Image
               key={tech.name}
               src={`https://skillicons.dev/icons?i=${tech.name}`}
